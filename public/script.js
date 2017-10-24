@@ -46,7 +46,7 @@
   })
   .catch(function(err) {
     console.log(err);
-    $('.errors').append('<b>Oops! Likely reached random number limit!</b>');
+    $('.errors').append('<b>Oops! Likely used up quota!</b>');
   });
 
 
